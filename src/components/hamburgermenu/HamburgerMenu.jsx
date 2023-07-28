@@ -34,7 +34,7 @@ const HamburgerMenu = () => {
 
               {
                 links.map((link,i)=>(
-                  <Link href={link.href} >
+                  <Link href={link.href} key={i}>
                     <div className={styles.content}>
                        <Image src={link.src} fill />
                       <h6 className={styles.text}>Phase {i+1}</h6>
