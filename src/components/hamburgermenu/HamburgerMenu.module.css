@@ -15,7 +15,7 @@
   .line {
     width: 100%;
     height: 2px;
-    background-color:  #D8464F;
+    background-color:  #000000;
     transition: transform 0.3s, opacity 0.3s;
   }
   
